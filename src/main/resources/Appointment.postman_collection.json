@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "42907c28-759a-459e-b522-05c5818e6a15",
+		"name": "Appointment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Book Appointment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameWithInitials\":\"Gowsegan\",\r\n    \"idNo\":\"921432364V\",\r\n    \"appointmentDate\":\"2021-10-10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/bookAppointmentBy8089NX",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"bookAppointmentBy8089NX"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Appointment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/appointment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appointment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Appointment Cancel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "1",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/cancelAppointment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"cancelAppointment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
