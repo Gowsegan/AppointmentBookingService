@@ -2,7 +2,7 @@
 Urban Council of NelumTown is implementing a service that allows people to book appointments for Covid-19 vaccination.
 
 # Techonlogy 
-Java Spring Boot Service
+Java Spring Boot Service &
 Postman API Script
 
 # IDE Setup
